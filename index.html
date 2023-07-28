@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        margin-top: 25vh;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        color: #fff;
+    }
+    form{
+        padding: 30px;
+        border-radius: 10px;
+        background-color: #333;
+    }
+    .heading{
+        display: flex;
+        justify-content: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+        font-size: 20px;
+        color: aqua;
+    }
+    #male{
+        accent-color: red;
+    }
+    #HtML{
+        accent-color: green;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+    button{
+        margin-top: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+        align-items: center;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 5px 15px;
+    }
+</style>
+
+</head>
+<body>
+    <form autocomplete="off">
+        <div>
+            <p class="heading">Fill The Form</p>
+        </div>
+        <input type="text" name="name" placeholder="name" maxlength="10" style="color: blue; background-color: lightgrey; border: none;">
+            <div>
+                <p style="display: inline-block; justify-content: center; background-color:aquamarine; color: red;">gender</p>
+                <input type="radio" name="gender" id="male">
+                <label for="male">male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="male">female</label>
+            </div>
+        <p style="color: brown;">Intrested In?</p>
+        <input type="checkbox" name="intrested" id="HtML">
+        <label for="HTML">HTML</label>
+        <input type="checkbox" name="intrested" id="CSS">
+        <label for="CSS">CSS</label>
+        <input type="checkbox" name="intrested" id="JS">
+        <label for="JS">JavaScript</label>
+        <input type="color">
+        <div class="btn">
+            <button>Submit</button>
+        </div>
+    </form>
+</body>
+</html>
