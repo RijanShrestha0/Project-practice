@@ -5,59 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<style>
-    body{
-        margin-top: 25vh;
-        display: flex;
-        justify-content: center;
-        background-color: black;
-        color: #fff;
-    }
-    form{
-        padding: 30px;
-        border-radius: 10px;
-        background-color: #333;
-    }
-    .heading{
-        display: flex;
-        justify-content: center;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: bolder;
-        font-size: 20px;
-        color: aqua;
-    }
-    #female{
-        accent-color: rgb(255, 0, 170);
-    }
-    #HtML{
-        accent-color: orangered;
-    }
-    #CSS{
-        accent-color: rgb(0, 191, 255);
-    }
-    #JS{
-        accent-color: yellow;
-    }
-    .btn{
-        display: flex;
-        justify-content: center;
-    }
-    button{
-        margin-top: 20px;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: bolder;
-        align-items: center;
-        background-color: red;
-        color: white;
-        border: none;
-        border-radius: 10px;
-        padding: 5px 15px;
-    }
-    button:hover{
-        background-color: orangered;
-    }
-</style>
-
 </head>
 <body>
     <form autocomplete="off">
@@ -82,9 +29,10 @@
         <label for="CSS">CSS</label>
         <input type="checkbox" name="intrested" id="JS">
         <label for="JS">JavaScript</label>
-        <div class="btn">
+        <p class="agreement"><input type="checkbox" style="accent-color: yellowgreen;">Agreed With All Terms and Conditions</p>
+        <a class="btn" href="submittion.html">
             <button>Submit</button>
-        </div>
+        </a>
     </form>
 </body>
 </html>
