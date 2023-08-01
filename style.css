@@ -33,6 +33,7 @@ form{
 .btn{
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 button{
     margin-top: 20px;
