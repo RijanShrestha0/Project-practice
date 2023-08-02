@@ -56,3 +56,10 @@ button:hover{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
+
+button::first-letter{
+    text-transform: uppercase;
+}
+input::first-letter{
+    text-transform: uppercase;
+}
