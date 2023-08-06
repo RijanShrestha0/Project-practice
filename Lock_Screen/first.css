@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    background: url(https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.screen{
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 300px;
+    text-decoration: none;
+    transition: .5s ease;
+    filter: grayscale(100%);
+}
+.prof{
+    width: 100px;
+    height: 100px;
+    background: url(https://lh5.googleusercontent.com/-Lt8KPCllNk4/AAAAAAAAAAI/AAAAAAAAMTg/Md6JXj8mWnI/photo.jpg);
+    background-position: center;
+    border: 2px solid lightgray;
+    border-radius: 100%;
+    background-size:  contain;
+}
+.profile:hover{
+    filter: grayscale(0%);
+    transform: scale(2);
+    cursor: pointer;
+}
+.name{
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+}
+.screen1{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 300px;
+    text-decoration: none;
+    transition: .5s ease;
+    filter: grayscale(100%);
+}
+.prof1{
+    width: 100px;
+    height: 100px;
+    background: url(https://captionslover.com/wp-content/uploads/2023/06/Best-Instagram-Dp-For-Boy.jpg);
+    background-position: center;
+    background-size: 200%;
+    border: 2px solid lightgray;
+    border-radius: 100%;
+    background-size:  contain;
+}
+.profile1:hover{
+    filter: grayscale(0%);
+    transform: scale(2);
+    cursor: pointer;
+}
+.name1{
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+}
