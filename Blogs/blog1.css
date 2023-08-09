@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    width: 100vw;
+    line-height: 30px;
+}
+.topbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    overflow: hidden;
+}
+.topbar a{
+    font-size: 12px;
+    font-weight: bold;
+}
+.mail{
+    margin: 0 0 0 50px;
+}
+.ph{
+    margin-left: 20px;
+}
+.log{
+    color: orange;
+    flex-basis: auto;
+    margin-left: auto;
+}
+.con{
+    margin: 0 10px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 30px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    padding: 25px;
+    box-shadow: 0px -1px 7px 0px #a6a3a3;
+    background-color: #FCFCFC;
+}
+h1{
+    margin: 0;
+}
+a{
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav .logo{
+    display: flex;
+    color: black;
+    flex-basis: auto;
+    margin-right: auto;
+    height: 35px;
+}
+.link{
+    color: #333;
+    padding: 0 30px;
+}
+.link:hover{
+    text-decoration: underline red;
+}
+.grad{
+    display: flex;
+    margin: 80px 30px;
+    height: 600px;
+    background: linear-gradient(90deg, rgb(0, 162, 255), rgb(255, 153, 0) 70%);
+}
+.grad p{
+    color: white;
+    font-size: 50px;
+    margin: auto 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
